@@ -13,7 +13,7 @@ pipeline {
         DOCKER_CREDENTIAL_ID = 'dockerhub-id'
         GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'registryserver:4000'
+        REGISTRY = 'http://registryserver:4000'
         DOCKERHUB_NAMESPACE = 'kylin'
         GITHUB_ACCOUNT = 'demokylin'
         APP_NAME = 'devops-java-sample'
